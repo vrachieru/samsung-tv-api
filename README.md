@@ -26,14 +26,12 @@ $ pip3 install ./samsung-tv-api
 ```
 
 ## Usage
-
 ```python
 from samsungtv import SamsungTV
 
-tv = SamsungTV('192.168.xxx.xxx')
-tv.power() # toggle power
+tv = SamsungTV('192.168.1.226')
+tv.power() # toggle menu
 ```
-
 ## License
 
 MIT
